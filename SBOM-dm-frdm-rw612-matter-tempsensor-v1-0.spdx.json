@@ -1,0 +1,64 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "creationInfo": {
+    "created": "2026-04-17T16:42:56Z",
+    "creators": [
+      "Organization: NXP"
+    ],
+    "licenseListVersion": "3.26"
+  },
+  "name": "dm-frdm-rw612-matter-tempsensor",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://nxp.com/spdx/0eb322b5-43a9-4828-8ee7-98b118380551",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-package-0eb322b5-43a9-4828-8ee7-98b118380551",
+      "name": "dm-frdm-rw612-matter-tempsensor",
+      "versionInfo": "v1.0",
+      "licenseConcluded": "(Apache-2.0)",
+      "licenseDeclared": "(Apache-2.0)",
+      "downloadLocation": "https://github.com/nxp-appcodehub/dm-frdm-rw612-matter-standalone-temperature-sensor",
+      "originator": "NXP",
+      "supplier": "NOASSERTION",
+      "externalRefs": [],
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-package-0eb322b5-43a9-4828-8ee7-98b118380551---df70810a-7601-4ee4-9608-58f73bac5233",
+      "name": "connectedhomeip",
+      "versionInfo": "v1.4.0.0",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "homepage": "https://www.connectedhomeip.com",
+      "downloadLocation": "NOASSERTION",
+      "originator": "Organization: project-chip",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceLocator": "4082b7ea-2f54-4e31-b7ee-b373a5e0a848",
+          "referenceType": "BlackDuck-ComponentOrigin"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/project-chip/connectedhomeip@v1.4.0.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-package-0eb322b5-43a9-4828-8ee7-98b118380551"
+    },
+    {
+      "spdxElementId": "SPDXRef-package-0eb322b5-43a9-4828-8ee7-98b118380551",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-package-0eb322b5-43a9-4828-8ee7-98b118380551---df70810a-7601-4ee4-9608-58f73bac5233"
+    }
+  ]
+}
